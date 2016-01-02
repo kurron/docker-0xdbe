@@ -2,7 +2,7 @@
 
 CMD="docker run \
        --rm \
-       --name 0xdbe \
+       --name datagrip \
        --net "host" \
        --env DISPLAY=unix$DISPLAY \
        --user 1000:1000 \
